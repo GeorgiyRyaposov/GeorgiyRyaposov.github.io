@@ -24,7 +24,7 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
-			select_language("en");
+			select_language("ru");
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
